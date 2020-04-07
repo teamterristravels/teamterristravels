@@ -12047,6 +12047,12 @@ button.toast-close-button {
 	}
 }
 
+@media all and (min-width: 200px) and (max-width: 1000px){
+	#logo img{
+		display: none;
+	}
+}
+
 
 /* ----------------------------------------------------------------
 	Footer
