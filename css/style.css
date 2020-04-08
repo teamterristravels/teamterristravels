@@ -793,7 +793,7 @@ html[xmlns] .slider-wrap {display: block;}
 	font-weight: 700;
 	text-transform: uppercase;
 	height: 44px;
-	color: #666;
+	color: #000;
 }
 
 .top-links li i { vertical-align: top; }
@@ -908,7 +908,7 @@ html[xmlns] .slider-wrap {display: block;}
 	float: none;
 	width: 40px;
 	font-weight: bold;
-	color: #666;
+	color: #000;
 	-webkit-transition: color .3s ease-in-out, background-color .3s ease-in-out, width .3s ease-in-out;
 	-o-transition: color .3s ease-in-out, background-color .3s ease-in-out, width .3s ease-in-out;
 	transition: color .3s ease-in-out, background-color .3s ease-in-out, width .3s ease-in-out;
@@ -1178,7 +1178,7 @@ body.stretched #header.full-header .container {
 	width: 16px;
 	text-align: center;
 	margin-right: 6px;
-	vertical-align: top;
+	vertical-align: top;	font-weight: 900px;
 }
 
 #primary-menu ul li > a i.icon-angle-down:last-child {
@@ -1248,7 +1248,7 @@ body.no-superfish #primary-menu li:hover > .mega-menu-content { display: block; 
 
 #primary-menu ul ul li > a {
 	font-size: 12px;
-	font-weight: 700;
+	font-weight: 900;
 	color: #666;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -3370,9 +3370,8 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	display: block;
 	margin-top: 10px;
 	font-weight: 300;
-	color: #777;
+	color: #000;
 	font-size: 18px;
-
 }
 
 .breadcrumb {
