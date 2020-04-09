@@ -309,6 +309,80 @@
 								</div>
 							</a>
 						</div>
+						<div class="swiper-slide">
+						<div class="swiper-container swiper-nested-4">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide" style="background: url('../images/Trips/Iceland/mel-and-rich-blue-lagoon-iceland-2.jpg') center center; background-size:cover;">
+										<a href="#">
+											<div class="overlay">
+												<div class="text-overlay">
+													<div class="text-overlay-title">
+														<h3>Melissa and Richard at the Blue Lagoon</h3>
+													</div>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide" style="background: url('../images/Trips/Iceland/mel-breakfast.jpg') center center; background-size:cover;">
+										<a href="#">
+											<div class="overlay">
+												<div class="text-overlay">
+													<div class="text-overlay-title">
+														<h3>Melissa's Breakfast</h3>
+													</div>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide" style="background: url('../images/Trips/Iceland/mel-and-rich-whale-watching.jpg') center center; background-size:cover;">
+										<a href="#">
+											<div class="overlay">
+												<div class="text-overlay">
+													<div class="text-overlay-title">
+														<h3>Melissa and Richard ready to go whale watching</h3>
+													</div>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide" style="background: url('../images/Trips/Iceland/mel-dinner.jpg') center center; background-size:cover;">
+										<a href="#">
+											<div class="overlay">
+												<div class="text-overlay">
+													<div class="text-overlay-title">
+														<h3>Melissa's Dinner</h3>
+													</div>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide" style="background: url('../images/Trips/Iceland/mel-skogafoss.jpg') center center; background-size:cover;">
+										<a href="#">
+											<div class="overlay">
+												<div class="text-overlay">
+													<div class="text-overlay-title">
+														<h3>Melissa at the Skogafoss waterfall</h3>
+													</div>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide" style="background: url('../images/Trips/Iceland/skogafoss-rainbow.jpg') center center; background-size:cover;">
+										<a href="#">
+											<div class="overlay">
+												<div class="text-overlay">
+													<div class="text-overlay-title">
+														<h3>Rainbow at the Skogafoss waterfall</h3>
+													</div>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div id="sw4-arrow-top" class="slider-arrow-top-sm"><i class="icon-angle-up"></i></div>
+								<div id="sw4-arrow-bottom" class="slider-arrow-bottom-sm"><i class="icon-angle-down"></i></div>
+							</div>
+						</div>
 						<div class="swiper-slide" style="background: url('../images/Trips/Iceland/whale-tail.jpg') center center; background-size:cover;">
 							<a href="#">
 								<div class="overlay">
@@ -490,6 +564,26 @@
 				navigation: {
 					prevEl: '#sw3-arrow-top',
 					nextEl: '#sw3-arrow-bottom'
+				},
+				breakpoints: {
+					1200: {
+			          slidesPerView: 2
+			        },
+			        768: {
+			          slidesPerView: 1
+			        }
+		     	}
+			});
+
+			var swiperNested3 = new Swiper('.swiper-nested-4',{
+				slidesPerView: 2,
+				direction: 'vertical',
+				pagination:{
+					clickable: false
+				},
+				navigation: {
+					prevEl: '#sw4-arrow-top',
+					nextEl: '#sw4-arrow-bottom'
 				},
 				breakpoints: {
 					1200: {
