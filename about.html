@@ -247,6 +247,9 @@
                         </div>
                         <div class="form-output" id="form-subscribe-footer"></div>
                       </form>
+
+<div id="successMessage"></div>
+
               </div>
             </div>
            
@@ -287,6 +290,7 @@
     onSuccess: function(response){
       alert(response);
       console.log(response);
+      $("#successMessage").html(response.title + " " + response.message);
     },
     // Error callback, a good place to show errors 🗿
     onError: function(error){
