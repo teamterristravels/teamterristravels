@@ -114,6 +114,14 @@
 body,
 .dropdown-menu { font-size: 0.875rem; }
 
+@media screen and (max-width: 44em) {
+  nav[role="full-horizontal"] {
+    ul > li {
+      width: 100%;
+    }
+  }
+}
+
 
 /* ----------------------------------------------------------------
 	Basic
