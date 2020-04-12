@@ -285,11 +285,13 @@
     // Success callback, you can show alert messages
     // or redirect the user in this function
     onSuccess: function(response){
-      alert(response)
+      alert(response);
+      console.log(response);
     },
     // Error callback, a good place to show errors 🗿
     onError: function(error){
-      alert(error)
+      alert(error);
+      console.log(error);
     }
   });
 </script>
