@@ -54,17 +54,8 @@
                 <div class="rd-navbar-nav-wrap">
                   <div class="rd-navbar-mobile-scroll">
                     <!--Navbar Brand Mobile-->
-                    <div class="rd-navbar-mobile-brand"><a href="index.html"><img style='margin-top: 15px;margin-left: -15px;' width='138' height='31' src='images/team-terris-logo.png' alt='Team Terris Logo'/></a></div>
-                    <div class="form-search-wrap">
-                      <!-- RD Search Form-->
-                      <form class="form-search rd-search" action="search-results.html" method="GET">
-                        <div class="form-group">
-                          <label class="form-label form-search-label form-label-sm" for="rd-navbar-form-search-widget">Search</label>
-                          <input class="form-search-input input-sm form-control form-control-gray-lightest input-sm" id="rd-navbar-form-search-widget" type="text" name="s" autocomplete="off"/>
-                        </div>
-                        <button class="form-search-submit" type="submit"><span class="novi-icon mdi mdi-magnify"></span></button>
-                      </form>
-                    </div>
+                    <div class="rd-navbar-mobile-brand"><a href="index.html"><img style='margin-top: 15px;margin-left: -15px;' width='160' height='160' src='images/team-terris-logo.png' alt='Team Terris Logo'/></a></div>
+                    
                     <!-- RD Navbar Nav-->
                     <ul class="rd-navbar-nav">
                       <li class="active"><a href="index.html"><span>Home</span></a>
@@ -78,9 +69,9 @@
                         
                       </li>
 
-                      <li><a href="contact-us.html"><span>Contact</span></a>
+                     <!-- <li><a href="contact-us.html"><span>Contact</span></a>
                         
-                      </li>
+                      </li> -->
                       
                     </ul>
                   </div>
@@ -206,13 +197,11 @@
     // Success callback, you can show alert messages
     // or redirect the user in this function
     onSuccess: function(response){
-      alert(response);
       console.log(response);
       $("#successMessage").html(response.title + " " + response.message);
     },
     // Error callback, a good place to show errors 🗿
     onError: function(error){
-      alert(error);
       console.log(error);
     }
   });
