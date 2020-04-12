@@ -237,7 +237,7 @@
               <p>Never miss a post, sign up to our mailing list!</p>
               <div class="offset-top-30">
 
-                      <form id="contactform" class="rd-mailform" data-form-output="form-subscribe-footer" data-form-type="subscribe" method="POST" action="https://formcarry.com/s/MJkzSaVIPHmw" accept-charset="UTF-8">
+                      <form id="my-formcarry" class="rd-mailform" data-form-output="form-subscribe-footer" data-form-type="subscribe" method="POST" action="https://formcarry.com/s/MJkzSaVIPHmw" accept-charset="UTF-8">
                         <div class="form-group">
                           <div class="input-group input-group-sm"><span class="input-group-prepend"><span class="input-group-text input-group-icon"><span class="novi-icon mdi mdi-email"></span></span></span>
                             <input class="form-control" placeholder="Type your E-Mail" type="email" name="email" data-constraints="@Required @Email"><span class="input-group-append">
@@ -268,7 +268,31 @@
     <script src="js/revolution.min.js"></script>
 
 
-
+<script src="https://carrier.formcarry.com/js/v1.js"></script>
+<script>
+  formcarry({
+    form: "MJkzSaVIPHmw",
+    // id or the class name of the form element, only form element allowed
+    // works with css selectors
+    // # <= for id
+    // . <= for class
+    element: "#my-formcarry",
+    extraData: {
+      // add whatever you want
+      screenSize: `${window.screen.width}x${window.screen.height}`,
+      language: window.navigator.language,
+    },
+    // Success callback, you can show alert messages
+    // or redirect the user in this function
+    onSuccess: function(response){
+      alert(response)
+    },
+    // Error callback, a good place to show errors 🗿
+    onError: function(error){
+      alert(error)
+    }
+  });
+</script>
 
   </body>
 </html>
