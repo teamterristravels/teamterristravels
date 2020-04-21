@@ -94,7 +94,29 @@
 	Bootstrap Adjustments
 -----------------------------------------------------------------*/
 
+/* Updates by Bobby */
+@media screen and (max-width: 750px) {
+  #top-bar { display: none; }
+  #header-wrap { background:rgba(255,255,255,0.75);
+  #primary-menu-trigger { width:80px; }
+  #primary-menu a, #primary-menu .current a { color:#FFF!important; }
+  #logo a.retina-logo { display:inline-block; }
+    #logo a.retina-logo img { display:inline-block; height:100px!important; }
+  #page-title { padding: 320px 0 120px; }
+}
 
+ @media screen and (min-width: 751px) {
+  #top-bar { display: block; }
+  #header-wrap { background:transparent;
+  #primary-menu-trigger { width:auto; }
+  #primary-menu a, #primary-menu .current a { color:inherit!important; }
+  #logo a.retina-logo { display:block!important; }
+    #logo a.retina-logo img { display:block!important; height:auto!important; }
+  #page-title { padding: 160px 0; }
+}
+	
+	#logo a.retina-logo { display:inline-block; }
+    #logo a.retina-logo img { display:inline-block; height:100px!important; }
 
 @media (min-width: 576px) {
 	.container { max-width: 540px; }
