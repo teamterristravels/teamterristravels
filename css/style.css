@@ -13986,6 +13986,7 @@ body:not(.no-transition) #wrapper,
   #header-wrap { background:transparent; }
   #primary-menu-trigger { width:auto; }
   #primary-menu a, #primary-menu .current a { color:inherit!important; }
-  #logo a.standard-logo { display:block!important; }
+  #logo a.standard-logo { display:none!important; }
     #logo a.standard-logo img { display:block!important; height:auto!important; }
+  #page-title { top:-245px!important; }
 }
