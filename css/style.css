@@ -13981,7 +13981,7 @@ body:not(.no-transition) #wrapper,
   #page-title { top:-100px!important; }
 }
 
- @media screen and (min-width: 751px) {
+ @media screen and (min-width: 768px) {
   #top-bar { display: block; }
   #header-wrap { background:transparent; }
   #primary-menu-trigger { width:auto; }
