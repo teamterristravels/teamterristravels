@@ -13978,7 +13978,7 @@ body:not(.no-transition) #wrapper,
   #primary-menu a, #primary-menu .current a { color:#FFF!important; }
   #logo a.standard-logo { display:inline-block; }
     #logo a.standard-logo img { display:inline-block; height:100px!important; }
-  #page-title { padding: 320px 0 120px; }
+  #page-title { padding: 320px 0 120px!important; }
 }
 
  @media screen and (min-width: 751px) {
@@ -13988,5 +13988,5 @@ body:not(.no-transition) #wrapper,
   #primary-menu a, #primary-menu .current a { color:inherit!important; }
   #logo a.standard-logo { display:block!important; }
     #logo a.standard-logo img { display:block!important; height:auto!important; }
-  #page-title { padding: 160px 0; }
+  #page-title { padding: 160px 0!important; }
 }
