@@ -47,3 +47,17 @@
     display: none;
   }
 }
+
+/* Updates by Bobby */
+@media screen and (max-width: 750px) {
+  #top-bar { display: none; }
+  #header-wrap { background:rgba(255,255,255,0.75);
+  #primary-menu-trigger { width:80px; }
+  #primary-menu a, #primary-menu .current a { color:#FFF!important; }
+  #logo a.retina-logo { display:inline-block!important; }
+    #logo a.retina-logo img { display:inline-block!important; height:100px!important; }
+  #page-title { padding: 320px 0 120px; }
+}
+
+
+
