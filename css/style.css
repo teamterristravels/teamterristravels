@@ -13990,3 +13990,7 @@ body:not(.no-transition) #wrapper,
     #logo a.standard-logo img { display:block!important; height:auto!important; }
   #page-title { top:-245px!important; }
 }
+
+@media screen and (min-width: 992px) {
+   #top-bar.transparent-topbar+#header.transparent-header+#slider, #top-bar.transparent-topbar+#header.transparent-header+.page-title-parallax { top:-245px!important; }	
+}
