@@ -96,6 +96,9 @@
 
 
 
+	#logo a.retina-logo { display:inline-block; }
+    #logo a.retina-logo img { display:inline-block; height:100px!important; }
+
 @media (min-width: 576px) {
 	.container { max-width: 540px; }
 }
@@ -3357,7 +3360,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	background-color: #F5F5F5;
 	border-bottom: 1px solid #EEE;
 	margin-bottom: -145px !important; 
-	top: -245px !important;
+	top: -245px;
 }
 
 #page-title .container { 
@@ -13967,3 +13970,27 @@ body:not(.no-transition) #wrapper,
 }
 
 
+/* Updates by Bobby */
+@media screen and (max-width: 750px) {
+  #top-bar { display: none; }
+  #header-wrap { background:rgba(255,255,255,0.75); }
+  #primary-menu-trigger { width:80px!important; }
+  #primary-menu a, #primary-menu .current a { color:#FFF!important; }
+  #logo a.standard-logo { display:inline-block; }
+    #logo a.standard-logo img { display:inline-block; height:100px!important; }
+  #page-title { top:-100px!important; }
+}
+
+ @media screen and (min-width: 768px) {
+  #top-bar { display: block; }
+  #header-wrap { background:transparent; }
+  #primary-menu-trigger { width:auto; }
+  #primary-menu a, #primary-menu .current a { color:inherit!important; }
+  #logo a.standard-logo { display:none!important; }
+    #logo a.standard-logo img { display:block!important; height:auto!important; }
+  #page-title { top:-245px!important; }
+}
+
+@media screen and (min-width: 992px) {
+   #top-bar.transparent-topbar+#header.transparent-header+#slider, #top-bar.transparent-topbar+#header.transparent-header+.page-title-parallax { top:-245px!important; }	
+}
