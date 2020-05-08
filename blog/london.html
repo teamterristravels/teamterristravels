@@ -125,7 +125,7 @@
 
 		<section id="slider" class="slider-element slider-parallax swiper_wrapper full-screen clearfix" data-loop="true">
 
-			<div class="slider-parallax-inner">
+			<div class="slider-parallax-inner lazy">
 
 				<div class="swiper-container swiper-parent">
 					<div class="swiper-wrapper">
@@ -537,6 +537,18 @@ s.setAttribute('data-timestamp', +new Date());
       console.log(error)
     }
   });
+</script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		console.log('hello');
+  $('.lazy').slick({
+    lazyLoad: 'ondemand',
+    slidesToShow: 1
+  });
+});
 </script>
 
 </body>
