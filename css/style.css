@@ -2980,6 +2980,10 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	background: url('images/pattern2.png') repeat;
 }
 
+.lazy{
+	background-image: none !important;
+}
+
 .swiper_wrapper .swiper-slide {
 	position: relative;
 	margin: 0;
